@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <title>About Me</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="https://kit.fontawesome.com/2f947f83e0.js" crossorigin="anonymous"></script>
+        <script src="style.css"></script>
+        <script src="javascript.js"></script>
+
+    </head>
+<body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="haziq.png" class="logo">
+                    <ul>
+                        <li><a href="newhtml.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="project.html">Project</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                </div>
+            </div>
+        </div>
+          <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="gambar passport farhan.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <br>
+                        <p syle="font-weight: bold; font-size: 15px;"> In the coastal town of Terengganu, where the gentle waves meet the shore, resides Farhan, 
+                            an impassioned tech enthusiast whose heart beats in sync with the rhythm of web design, networking intricacies, and the immersive world of video games. 
+                            Farhan, a virtuoso in crafting visually enchanting and intuitively navigable websites, seamlessly extends his expertise into the ethereal 
+                            realm of networking, orchestrating digital symphonies that optimize user experiences.
+                            <br>
+                            Yet, Farhan's ardor for technology is not confined to the virtual realm alone; it transcends into the very fiber of his being.
+                            With a deft touch that merges creativity with technical finesse, he navigates the ever-evolving landscape where innovation and entertainment intersect. 
+                            Beyond the luminous glow of computer screens, Farhan finds solace and joy in the captivating realm of video games. 
+                            Here, he doesn't merely revel in the thrill of gameplay but pauses to appreciate the artistry woven into every pixel and the innovation that breathes life into the virtual landscapes.
+                            <br>
+                            In this dynamic individual, we find Farhan, a symphony of curiosity, creativity, and technical prowess are carving his path 
+                            in the enthralling convergence of technology and entertainment.</p>
+                    </div>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="experience">
+                            <ul>
+                                <li><span>Software Developer</span><br>Software Developer/Interfaces</li>
+                                <li><span>Computer Networking</span><br>Computer Networking/Routing</li>
+                                <li><span>Web Developer</span><br>Web Designer/Web Applications</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Universiti Sultan Zainal Abidin</span><br>Bachelor of Software Developer</li>
+                                <li><span>Universiti Teknologi MARA</span><br>Diploma in Accountancy
+                                </li>
+                                <li><span>Sekolah Menengah Kebangsaan Tengku Lela Segara</span><br>Accountancy</li>
+                            </ul>
+                        </div>                              
+                 </div>
+              </div>
+          </div>
+    </body>
+</html>
